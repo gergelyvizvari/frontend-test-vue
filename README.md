@@ -39,6 +39,13 @@ There should be:
 - Match the layout and styling included in the design folder.
 - The page is responsive when viewed on Mobile and Desktop
 
+Nice to have
+---
+
+Additionally, it would be nice to have:
+- Feature and/or unit testing
+- State management
+
 Resources
 ---
 
@@ -74,4 +81,4 @@ To submit your solution, please fork this repository and provide us a link to yo
 
 Copyright
 ---
-All trademarks as the property of their respective owners.
+All trademarks are the property of their respective owners.
