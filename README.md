@@ -11,7 +11,7 @@ You **must** fork this repository and submit your work via a Merge Request.
 Instructions
 ---
 This is a fairly basic front-end piece to give us a general idea of where you are as a developer.
-You should complete this project with the Javascript framework of your choice. 
+You should complete this project with the Javascript framework of your choice (Vue or React). 
 We don't expect you to spend several days creating a fully finished page, but try to spend **no more than three hours** on it and 
 see how far you can get. If you're short on time we'd like to see the API interaction and search ability, rather than 
 the whole page being rushed. You should use it to demonstrate the following:
@@ -19,17 +19,16 @@ the whole page being rushed. You should use it to demonstrate the following:
 - Version control: Ideally you will fork from this repo and provide us a link to your new repo containing the finished files, along with your commit history.
 - Basic task runner workflow: There are instructions below for getting going in this very basic gulp project, but you should be comfortable using Gulp to compile SCSS and concatenate JS or the specific build process required for the Javascript framework you have chosen.
 You must include a guide for compiling for development and production.
-- Javascript: This design presents a couple of opportunities to use JS. Using the Javascript framework of choice to connect to the API and show the resulting data.
+- Javascript: This design presents a couple of opportunities to use JS. Using the Javascript framework of choice (Vue or React) to connect to the API and show the resulting data.
 - SCSS: Make the most of the added functionality SCSS brings to the table.
 - Responsive: Don't worry about coding for every possible device. All we ask is that it looks ok on screens larger than 1024px `design/pokedex-homepage.pdf` and smaller than 500px `design/pokedex-homepage-responsive.pdf` (Just desktop and mobile).
-- Keen eye for detail: Your main priority here should be pixel perfect/close reproduction of the design in the PDF.
 - API usage: That you are interacting with the API in an efficient way.
 - Clean, readable code
 
 Requirements
 ---
 
-There should be;
+There should be:
 - A working paginated list of pokemon on the left hand side of the page, as shown in the design and click through to browse all possible pokemon.
 - Previous pagination button is not shown on the first page of pokemon and next page is not shown on the last
 - A search box, which can be used to search for any valid pokemon that exists in the API. This should at least be complete word match i.e `Venusaur`, but can be improved using fuzzy/partial word search i.e. `saur` to list under the search box `Bulbasaur`, `Ivysaur`, `Venusaur` and `Venusaur-mega`.
